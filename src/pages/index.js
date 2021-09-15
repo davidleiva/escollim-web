@@ -70,7 +70,10 @@ const IndexPage = () => {
                 </a>
               </h3>
               <h4 className="mb-4 d-md-none">
-                <a href="https://twitter.com/search?q=NOalCierreDeLosBancosEnBellavista&src=typed_query&f=top" target="_blank">
+                <a
+                  href="https://twitter.com/search?q=NOalCierreDeLosBancosEnBellavista&src=typed_query&f=top"
+                  target="_blank"
+                >
                   <small>#NOalCierreDeLosBancosEnBellavista</small>
                 </a>
               </h4>
@@ -81,7 +84,13 @@ const IndexPage = () => {
                     <br />
                     <b>Miércoles 15 y 22</b> de Septiembre{" "}
                     <b>
-                      a partir de las 10hh en la <a href="https://goo.gl/maps/GrWasZW8KudksFhA6" target="_blank">Plaza Espanya</a>
+                      a partir de las 10hh en la{" "}
+                      <a
+                        href="https://goo.gl/maps/GrWasZW8KudksFhA6"
+                        target="_blank"
+                      >
+                        Plaza Espanya
+                      </a>
                     </b>
                     .
                   </p>
@@ -94,7 +103,12 @@ const IndexPage = () => {
                     Próxima <b>asamblea</b> el día <b>Miércoles día 22</b> a las{" "}
                     <b>18:00hh</b> en el{" "}
                     <b>
-                      <a href="https://goo.gl/maps/HUsgRBxKvtNWuKbJ9" target="_blank">local parroquial de Bellavista</a>
+                      <a
+                        href="https://goo.gl/maps/HUsgRBxKvtNWuKbJ9"
+                        target="_blank"
+                      >
+                        local parroquial de Bellavista
+                      </a>
                     </b>
                     .
                   </p>
@@ -107,17 +121,17 @@ const IndexPage = () => {
         <div className="row">
           <div className="col-12 col-md-6 mb-4">
             <h5>Sigue nuestro trabajo en redes sociales:</h5>
-            <ul className="list-group list-group-flush list-group-horizontal">
-              <li className="list-group-item bg-transparent border-0">
+            <ul className="list-group list-group-horizontal">
+              <li className="list-group-item border-0 p-3">
                 <a
                   href="https://www.facebook.com/Escollim-Les-Franqueses-102291522207657"
                   target="_blank"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
+                    width="32"
+                    height="32"
+                    fill="#3b5998"
                     class="bi bi-facebook"
                     viewBox="0 0 16 16"
                   >
@@ -126,13 +140,13 @@ const IndexPage = () => {
                   <span className="d-none">Facebook</span>
                 </a>
               </li>
-              <li className="list-group-item bg-transparent border-0">
+              <li className="list-group-item border-0 p-3">
                 <a href="https://www.instagram.com/escollim/" target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
+                    width="32"
+                    height="32"
+                    fill="#C13584"
                     class="bi bi-instagram"
                     viewBox="0 0 16 16"
                   >
@@ -141,13 +155,13 @@ const IndexPage = () => {
                   <span className="d-none">Instagram</span>
                 </a>
               </li>
-              <li className="list-group-item bg-transparent border-0">
+              <li className="list-group-item border-0 p-3">
                 <a href="https://twitter.com/escollim" target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
+                    width="32"
+                    height="32"
+                    fill="#00ACEE"
                     class="bi bi-twitter"
                     viewBox="0 0 16 16"
                   >
@@ -160,19 +174,24 @@ const IndexPage = () => {
           </div>
           <div className="col-12 col-md-6 text-md-end mb-5">
             <h5>Contacto:</h5>
-            <a href="mailto:escollim.lesfranqueses@gmail.com">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-envelope-fill"
-                viewBox="0 0 16 16"
-              >
-                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
-              </svg>{" "}
-              <span>escollim.lesfranqueses@gmail.com</span>
-            </a>
+            <ul className="list-group list-group-horizontal justify-content-md-end">
+              <li className="list-group-item border-0 p-3" style={{ borderBottomLeftRadius: '0.25rem' }}>
+                <a href="mailto:escollim.lesfranqueses@gmail.com">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-envelope-fill"
+                    viewBox="0 0 16 16"
+                    className="me-3"
+                  >
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                  </svg>
+                  <span>escollim.lesfranqueses@gmail.com</span>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
