@@ -69,14 +69,14 @@ const IndexPage = () => {
                   <small>#NOalCierreDeLosBancosEnBellavista</small>
                 </a>
               </h3>
-              <h4 className="mb-4 d-md-none">
+              <h6 className="mb-4 d-md-none">
                 <a
                   href="https://twitter.com/search?q=NOalCierreDeLosBancosEnBellavista&src=typed_query&f=top"
                   target="_blank"
                 >
                   <small>#NOalCierreDeLosBancosEnBellavista</small>
                 </a>
-              </h4>
+              </h6>
               <ul className="list-group">
                 <li className="list-group-item py-3">
                   <p className="mb-0">
