@@ -64,11 +64,14 @@ const IndexPage = () => {
             </div>
             <div className="col-12 col-md-7">
               <h6>¡Únete a nuestra primera acción!</h6>
-              <h3 className="mb-4 d-none d-md-block">
-                <a href="#">
+              <h4 className="mb-4 d-none d-md-block">
+                <a
+                  href="https://twitter.com/search?q=NOalCierreDeLosBancosEnBellavista&src=typed_query&f=top"
+                  target="_blank"
+                >
                   <small>#NOalCierreDeLosBancosEnBellavista</small>
                 </a>
-              </h3>
+              </h4>
               <h6 className="mb-4 d-md-none">
                 <a
                   href="https://twitter.com/search?q=NOalCierreDeLosBancosEnBellavista&src=typed_query&f=top"
@@ -175,7 +178,10 @@ const IndexPage = () => {
           <div className="col-12 col-md-6 text-md-end mb-5">
             <h5>Contacto:</h5>
             <ul className="list-group list-group-horizontal justify-content-md-end">
-              <li className="list-group-item border-0 p-3" style={{ borderBottomLeftRadius: '0.25rem' }}>
+              <li
+                className="list-group-item border-0 p-3"
+                style={{ borderBottomLeftRadius: "0.25rem" }}
+              >
                 <a href="mailto:escollim.lesfranqueses@gmail.com">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
