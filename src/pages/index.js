@@ -1,6 +1,9 @@
 import * as React from "react";
 import logo from "../images/escollim.svg";
 import bbvaEscollim from "../images/bbva-escollim.png";
+import alquilerEscollim from "../images/se-alquila.png"
+import policiaEscollim from "../images/policia-local.png"
+
 //bootstrap
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -46,6 +49,7 @@ const IndexPage = () => {
         </header>
 
         <article className="container">
+          <h4 className="text-uppercase">Acompáñanos al pleno del ayuntamiento</h4>
           <div
             style={{
               padding: 24,
@@ -53,71 +57,127 @@ const IndexPage = () => {
               borderRadius: 8,
               color: "black"
             }}
-            className="row"
+            className="row mb-2"
           >
-            <div className="col-12 col-md-5">
+            <div className="col-12 col-md-6">
+              <p>Jueves 30 - 19:00 hh</p>
+              <p>Masia Can Ribas</p>
+              <p>(Corró d'Avall)</p>
+            </div>
+            <div className="col-12 col-md-6">
+              <p>Quedada Previa - 18:30 hh</p>
+              <p>Plaza España</p>
+              <p>(Bellavista)</p>
+            </div>
+          </div>
+          <h4 className="text-uppercase mb-2">Seguimos representando a los vecinos</h4>
+          <div
+            style={{
+              padding: 24,
+              backgroundColor: "white",
+              borderRadius: 8,
+              color: "black"
+            }}
+            className="row mb-2"
+          >
+            <div className="col-12 col-md-4">
               <img
                 className="w-100 me-4 mb-2"
                 src={bbvaEscollim}
                 alt="Escollim protestando ante el BBVA"
               />
             </div>
-            <div className="col-12 col-md-7">
-              <h6>¡Únete a nuestra primera acción!</h6>
+            <div className="col-12 col-md-8">
               <h4 className="mb-4 d-none d-md-block">
                 <a
-                  href="https://twitter.com/search?q=NOalCierreDeLosBancosEnBellavista&src=typed_query&f=top"
+                  href="https://twitter.com/search?q=NOalCierreDeLosBancos&src=typed_query&f=top"
                   target="_blank"
                 >
-                  <small>#NOalCierreDeLosBancosEnBellavista</small>
+                  <small>#NOalCierreDeLosBancos</small>
                 </a>
               </h4>
               <h6 className="mb-4 d-md-none">
                 <a
-                  href="https://twitter.com/search?q=NOalCierreDeLosBancosEnBellavista&src=typed_query&f=top"
+                  href="https://twitter.com/search?q=NOalCierreDeLosBancos&src=typed_query&f=top"
                   target="_blank"
                 >
-                  <small>#NOalCierreDeLosBancosEnBellavista</small>
+                  <small>#NOalCierreDeLosBancos</small>
                 </a>
               </h6>
-              <ul className="list-group">
-                <li className="list-group-item py-3">
-                  <p className="mb-0">
-                    Campaña de <b>recogida de firmas</b> y punto de información:{" "}
-                    <br />
-                    <b>Miércoles 15 y 22</b> de Septiembre{" "}
-                    <b>
-                      a partir de las 10hh en la{" "}
-                      <a
-                        href="https://goo.gl/maps/GrWasZW8KudksFhA6"
-                        target="_blank"
-                      >
-                        Plaza Espanya
-                      </a>
-                    </b>
-                    .
-                  </p>
-                </li>
-                <li className="list-group-item py-3">
-                  <b>Concentraciones</b> el <b>Jueves 23</b>.
-                </li>
-                <li className="list-group-item py-3">
-                  <p className="mb-0">
-                    Próxima <b>asamblea</b> el día <b>Miércoles día 22</b> a las{" "}
-                    <b>18:00hh</b> en el{" "}
-                    <b>
-                      <a
-                        href="https://goo.gl/maps/HUsgRBxKvtNWuKbJ9"
-                        target="_blank"
-                      >
-                        local parroquial de Bellavista
-                      </a>
-                    </b>
-                    .
-                  </p>
-                </li>
-              </ul>
+              <p className="lead">Expondremos soluciones para que los vecinos no se queden sin servicio por parte de los bancos.</p>
             </div>
+          </div>
+          <div
+            style={{
+              padding: 24,
+              backgroundColor: "white",
+              borderRadius: 8,
+              color: "black"
+            }}
+            className="row mb-2"
+          >
+            <div className="col-12 col-md-4">
+              <img
+                className="w-100 me-4 mb-2"
+                src={alquilerEscollim}
+                alt="Necesitamos soluciones para mejorar el alquiler social"
+              />
+            </div>
+            <div className="col-12 col-md-8">
+              <h4 className="mb-4 d-none d-md-block">
+                <a
+                  href="https://twitter.com/search?q=SíAlAlquilerSocial&src=typed_query&f=top"
+                  target="_blank"
+                >
+                  <small>#SíAlAlquilerSocial</small>
+                </a>
+              </h4>
+              <h6 className="mb-4 d-md-none">
+                <a
+                  href="https://twitter.com/search?q=SíAlAlquilerSocial&src=typed_query&f=top"
+                  target="_blank"
+                >
+                  <small>#SíAlAlquilerSocial</small>
+                </a>
+              </h6>
+              <p className="lead">Solicitaremos la adhesión por parte del gobierno de Les Franqueses a  reallotgem.cat</p>
+            </div>
+          </div>
+          <div
+            style={{
+              padding: 24,
+              backgroundColor: "white",
+              borderRadius: 8,
+              color: "black"
+            }}
+            className="row mb-2"
+          >
+            <div className="col-12 col-md-4">
+              <img
+                className="w-100 me-4 mb-2"
+                src={policiaEscollim}
+                alt="No tenemos los recursos policiales esperados"
+              />
+            </div>
+            <div className="col-12 col-md-8">
+              <h4 className="mb-4 d-none d-md-block">
+                <a
+                  href="https://twitter.com/search?q=MásEfectivosPoliciales&src=typed_query&f=top"
+                  target="_blank"
+                >
+                  <small>#MásEfectivosPoliciales</small>
+                </a>
+              </h4>
+              <h6 className="mb-4 d-md-none">
+                <a
+                  href="https://twitter.com/search?q=MásEfectivosPoliciales&src=typed_query&f=top"
+                  target="_blank"
+                >
+                  <small>#MásEfectivosPoliciales</small>
+                </a>
+              </h6>
+              <p className="lead">Preguntaremos por qué no tenemos los recursos policiales que prometieron.</p>
+              </div>
           </div>
         </article>
         <hr />
