@@ -3,6 +3,7 @@ import logo from "../images/escollim.svg";
 import bbvaEscollim from "../images/bbva-escollim.png";
 import alquilerEscollim from "../images/se-alquila.png"
 import policiaEscollim from "../images/policia-local.png"
+import NavBar from "../components/NavBar";
 
 //bootstrap
 import "bootstrap/dist/css/bootstrap.css";
@@ -26,6 +27,8 @@ const headingStyles = {
 // markup
 const IndexPage = () => {
   return (
+    <>
+    <NavBar />
     <main style={pageStyles}>
       <div className="container">
         <title>Escollim Les Franqueses</title>
@@ -261,6 +264,7 @@ const IndexPage = () => {
         </div>
       </div>
     </main>
+    </>
   );
 };
 
