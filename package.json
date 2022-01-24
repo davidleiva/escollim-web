@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "css:build": "sass --watch src/scss/index.scss:public/css/styles.css"
   },
   "dependencies": {
     "bootstrap": "^5.1.1",
@@ -21,7 +22,7 @@
     "gatsby-plugin-google-analytics": "^3.13.0",
     "gatsby-plugin-image": "^1.13.0",
     "gatsby-plugin-manifest": "^3.13.0",
-    "gatsby-plugin-react-helmet": "^4.13.0",
+    "gatsby-plugin-react-helmet": "^5.5.0",
     "gatsby-plugin-sass": "^4.13.0",
     "gatsby-plugin-sharp": "^3.13.0",
     "gatsby-plugin-sitemap": "^4.9.0",
